@@ -1,0 +1,230 @@
+/* MAJOR ONES */
+
+#title {
+    background-color: #ff6694;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.1rem;
+    line-height: 1.5;
+    text-shadow:
+        0 0 1px black,
+        0 0 1px black,
+        0 0 1px black,
+        0 0 1px black,
+        0 0 1px black;
+
+}
+
+h2 {
+    font-family: "Montserrat-bold";
+    font-weight: bold;
+    color: #000000;
+    font-size: 3rem;
+
+}
+
+h3 {
+    font-family: "Montserrat-bold";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+
+p {
+    color: darkgray;
+}
+
+
+/* 1ST PINK PORTION */
+
+
+.navbar-brand {
+
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+
+
+}
+
+.nav-link {
+
+    margin: 1rem;
+    font-size: 1.5rem;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem !important;
+
+}
+
+.navigation-image {
+
+    height: 35rem;
+    width: 19rem;
+    transform: rotate(25deg);
+    margin-top: 0;
+    position: absolute;
+    margin-left: 10rem;
+}
+
+.logo {
+    height: 6rem;
+    width: 8.5rem;
+    border-radius: 100%;
+}
+
+
+@media (max-width:1200px) {
+    .m-adjust {
+        margin-left: 0rem;
+        text-align: center;
+        padding: 0px;
+        position: static;
+
+    }
+
+    .navigation-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/*2ND whites section*/
+
+#features {
+
+    background-color: white;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+.feature-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+.icon {
+    color: #ff6694;
+    margin-bottom: 2rem;
+}
+
+.icon:hover {
+    color: #da597f;
+}
+
+/* 3RD PINK COLOR */
+
+
+#testimonials {
+    background-color: #ff6694;
+    text-align: center;
+}
+
+.testimonial-text {
+    color: #ffffff;
+}
+
+.dog-photo-1 {
+    border-radius: 50%;
+}
+
+#pebbles {
+    color: #ffffff;
+    size: 3rem;
+}
+
+
+#beverly {
+    color: #ffffff;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+}
+
+.carousel-item {
+    padding: 6% 6%;
+}
+
+#press {
+    background-color: #ff6694;
+    padding-block: rem;
+    padding: 1rem;
+}
+
+.press-logo {
+    max-width: 15rem;
+    margin-bottom: 3rem;
+    size: 4%;
+}
+
+
+/* 4th whites */
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* 5th pinks */
+
+
+#cta {
+    background-color: #ff6694;
+    color: #ffffff;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+
+/* 6th whites */
+
+
+#footer {
+    font-size: 2rem;
+}
+
+.social-icon {
+    margin: 3rem 1rem;
+
+}
+
+
+@media (max-width:1028px) {
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
